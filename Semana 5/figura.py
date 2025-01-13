@@ -14,17 +14,7 @@ class FiguraGeometrica:
         self.nombre = nombre
 
     def calcular_area(self) -> float:
-        """
-        Calcula el área de la figura. Este método debe ser implementado
-        por las clases hijas.
 
-        Raises:
-            NotImplementedError: Si se intenta calcular el área directamente
-                desde la clase base.
-
-        Returns:
-            El área de la figura.
-        """
         raise NotImplementedError("El método calcular_area debe ser implementado por las clases hijas.")
 
     def mostrar_info(self):
